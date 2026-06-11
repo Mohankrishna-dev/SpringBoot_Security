@@ -17,5 +17,14 @@ public String user1() {
 public String hello() {
 	return "this is private";
 }
+@GetMapping("/admin")
+public String admin() {
+	return "adminLogin";
+}
+@GetMapping("/user")
+public String user() {
+	return "User Login";
+}
+
 
 }
